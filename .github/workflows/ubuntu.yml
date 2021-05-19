@@ -17,3 +17,4 @@ jobs:
     - run: source ubuntu-run.sh
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@master
+      fail-fast: false
